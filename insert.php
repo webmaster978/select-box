@@ -12,7 +12,7 @@ if(isset($_POST["framework"]))
  $query = "INSERT INTO like_table(framework) VALUES('".$framework."')";
  if(mysqli_query($connect, $query))
  {
-  echo 'Data Inserted';
+  echo 'Donnees inserer';
  }
 }
 ?>
