@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title>Selwct multiple</title>
+  <title>Select multiple</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js"></script>  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
@@ -20,12 +20,12 @@
      <select id="framework" name="framework[]" multiple class="form-control" >
       <option value="Codeigniter">Codeigniter</option>
       <option value="CakePHP">CakePHP</option>
-      <option value="Laravel">Laravel</option>
-      <option value="YII">YII</option>
+      <option value="Laravel">Laravel5</option>
+      <option value="YII">Css</option>
       <option value="Zend">Zend</option>
       <option value="Symfony">Symfony</option>
       <option value="Phalcon">Phalcon</option>
-      <option value="Slim">Slim</option>
+      <option value="Slim">Html</option>
      </select>
     </div>
     <div class="form-group">
