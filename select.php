@@ -11,15 +11,15 @@
   <br /><br />
   <div class="container">
    <br />
-   <h2 align="center">Multiple Inline Insert into Mysql using Ajax JQuery in PHP</h2>
+   <h2 align="center"></h2>
    <br />
    <div class="table-responsive">
     <table class="table table-bordered" id="crud_table">
      <tr>
-      <th width="30%">Item Name</th>
-      <th width="10%">Item Code</th>
+      <th width="30%">Nom dé l'article</th>
+      <th width="10%">Code</th>
       <th width="45%">Description</th>
-      <th width="10%">Price</th>
+      <th width="10%">Prix</th>
       <th width="5%"></th>
      </tr>
      <tr>
@@ -34,7 +34,7 @@
      <button type="button" name="add" id="add" class="btn btn-success btn-xs">+</button>
     </div>
     <div align="center">
-     <button type="button" name="save" id="save" class="btn btn-info">Save</button>
+     <button type="button" name="save" id="save" class="btn btn-info">Enregistrer</button>
     </div>
     <br />
     <div id="inserted_item_data"></div>
