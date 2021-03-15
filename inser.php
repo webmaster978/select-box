@@ -4,7 +4,6 @@ $connect = mysqli_connect("localhost", "root", "", "testing");
 if(isset($_POST["item_name"]))
 {
 
- 
  $item_name = $_POST["item_name"];
  $item_code = $_POST["item_code"];
  $item_desc = $_POST["item_desc"];
